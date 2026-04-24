@@ -1,0 +1,16 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+header div, footer div {
+    height: 80px;
+    width: auto;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+img {
+    
+}
