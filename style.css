@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    background-color: azure;
+}
+
+#container {
+    max-width: 1300px;
+    margin-inline: auto;
+}
+
+/* Combined styles for header and footer*/
+.header, .footer{
+    width: 1300px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+}
+
+.akara {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 540px) {
+    img {
+        width: 533px;
+        height: 300px;
+    }
+}
+
+p {
+    line-height: 2.0;
+}
+
+.ingredient {
+    margin-top: 20px;
+}
+
+.ingredient:hover {
+    color: aqua;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.unordered {
+    display: grid;
+    list-style: none;
+    line-height: 2.0;
+    margin-bottom: 30px;
+}
+
+.recipe:hover {
+    color: aqua;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.instruction {
+    margin-bottom: 10px;
+}
+
+.instruction:hover {
+    color: aqua;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.ordered {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0px;
+    width: 1000px;
+    margin-bottom: 40px;
+}
+
+.bg1 {
+    background-color: hsl(0, 0%, 50%);
+    color: #fff;
+    padding: 10px;
+    height: 150px;
+}
+
+.bg2 {
+    background-color: hsl(0, 0%, 100%);
+    color: #000;
+    padding: 10px;
+    height: 150px;
+}
