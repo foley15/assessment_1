@@ -36,10 +36,10 @@ img {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 412px) {
     img {
-        width: 533px;
-        height: 300px;
+        width: 412px;
+        height: 232px;
     }
 }
 
