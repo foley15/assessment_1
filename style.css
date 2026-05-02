@@ -41,6 +41,11 @@ img {
         width: 412px;
         height: 232px;
     }
+
+    #container {
+    max-width: 412px;
+    margin-inline: auto;
+}
 }
 
 p {
